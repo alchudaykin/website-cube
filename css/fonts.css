@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FututaBookC.woff2') format('woff2'),
+        url('../fonts/FututaBookC.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/FututaMediumC.woff2') format('woff2'),
+        url('../fonts/FututaMediumC.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}

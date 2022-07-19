@@ -1,0 +1,16 @@
+/*components*/
+
+@import "normalize.css";
+@import "fonts.css";
+@import "global.css";
+@import "overall.css";
+@import "variables.css";
+@import "vendor.css";
+
+
+@import "./components/header.css";
+@import "./components/mine.css";
+@import "./components/footer.css";
+@import "./components/post.css";
+@import "./components/header-search.css";
+@import "./components/burger.css";

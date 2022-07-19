@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пост | Блог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <img class="logo header__logo" width="30px" height="30px" src="img/cube-icon.svg" alt="Логотип Блог">
+            </a>
+            <div class="header__right">
+
+                <nav class="nav header__nav">
+                    <ul class="nav__list list-reset">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="404.html" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link search-link">Поиск</a></li>
+                    </ul>
+                </nav>
+
+                <a href="tel:+798008008080" class="phone">+7 (900) 800 80-80</a>
+
+                <button type="button" class="burger">
+                    <span class="burger__item">line</span>
+                    <span class="burger__item">line</span>
+                    <span class="burger__item">line</span>
+                </button>
+                
+            </div>
+        </div>
+
+        <div class="header-search">
+            <button class="btn-reset header-search__close">
+                <img class="arrow" src="img/close.svg" alt="Закрыть форму">
+            </button>
+            <form action="#" class="header-search__form">
+                <input type="search" class="header-search__imput form-input">
+                <a href="search.html" class="ub-form__btn header-search__btn form__btn btn-reset">
+                    <span>Найти</span>
+                    <img class="arrow" src="img/search.svg" alt="Поиск">
+                </a>
+            </form>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="post-banner">
+            <div class="container post-banner__container" style="background-image: url('img/post-banner.jpg');"></div>
+        </div>
+
+        <section class="post-content">
+
+            <div class="container post-content__container">
+                <div class="post-wrapper">
+                    <div class="post">
+
+                        <div class="post-meta">
+                            <a href="category.html" class="post-category">Категория 1</a>
+                            <time class="post-date">24 янв 2022</time>
+                        </div>
+
+                        <h1 class="blog-title post-title">Управление IT-активами - скучная рутина или творческая задача?
+                        </h1>
+                        <p>Активы — это программное обеспечение, оборудование и любые другие физические единицы,
+                            которыми владеет компания. Чаще всего активы относят к капитальным затратам.</p>
+                        <p>Оборудование, являющееся активами, может включать компьютеры, сети, серверы, принтеры,
+                            периферийные устройства, телефоны и другие мобильные устройства. В зависимости от рода
+                            деятельности компании, могут быть и другие виды физических активов, такие как автомобили,
+                            станки, инструмент — все, чем владеет компания и предоставляет своим сотрудникам или
+                            клиентам. Программные активы могут включать лицензии на ПО, различные версии ПО, а также
+                            приложения, установленные на компьютер пользователя.</p>
+                        <p>Развитие технологий и применение облачных вычислений позволяют современным системам
+                            управления ИТ-активами быстрее и точнее отслеживать изменения, а также гибко управлять
+                            имеющимися активами. Такие системы автоматизируют большую часть процесса, позволяют в
+                            автоматическом режиме сканировать сеть на предмет появления новых активов, благодаря чему
+                            управление становится проще и прозрачнее.</p>
+                        <img src="img/post-pana.jpg" alt="Изображение поста 1">
+                    </div>
+                    <div class="post-links">
+                        <a href="#" class="post-links__link post-links--prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="var(--champagne)" viewBox="0 20 150 512">
+                                <path
+                                    d="M224 480c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l169.4 169.4c12.5 12.5 12.5 32.75 0 45.25C240.4 476.9 232.2 480 224 480z" />
+                            </svg>
+                            <span>Предыдущая новость</span>
+                        </a>
+                        <a href="#" class="post-links__link post-links--next">
+                            <span>Следующая новость</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="var(--champagne)" viewBox="0 20 150 512">
+                                <path
+                                    d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                </div>
+
+                <aside class="sidebar">
+                    <div class="popular-posts">
+                        <h3 class="popular-post__title blog-title">Последние новости</h3>
+                        <ul class="popular-posts__list">
+
+                            <li class="popular-posts__item">
+                                <article class="popular-post__article">
+                                    <h3 class="blog-post__title blog-title">Новая программа</h3>
+                                    <time class="blog-post__date">10 янв 2022</time>
+                                </article>
+                            </li>
+
+                            <li class="popular-posts__item">
+                                <article class="popular-post__article">
+                                    <h3 class="blog-post__title blog-title">Программное обеспечение по управлению IT
+                                        активами.</h3>
+                                    <time class="blog-post__date">10 янв 2022</time>
+                                </article>
+                            </li>
+
+                            <li class="popular-posts__item">
+                                <article class="popular-post__article">
+                                    <h3 class="blog-post__title blog-title">10 новых программ</h3>
+                                    <time class="blog-post__date">10 янв 2022</time>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subscribe">
+                        <h3 class="subscribe__title blog-title">Последние на рассылку</h3>
+                        <form action="#" class="subscribe__form sub-form">
+                            <input type="email" class="sub-form__input" placeholder="email@gmail.com">
+                            <button class="sub-form__btn btn-reset">
+                                <span>Подписаться</span>
+                                <img class="arrow" src="img/arrow.svg" alt="Логотип Блог">
+                            </button>
+                        </form>
+                    </div>
+
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+
+            <a class="logo footer__logo">
+                <img src="img/cube-icon.svg" alt="Логотип Блог">
+            </a>
+
+            <nav class="nav footer__nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="404.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    <li class="nav__item"><a href="search-not.html" class="nav__link">Поиск</a></li>
+                </ul>
+            </nav>
+
+            <small class="footer__copy">ООО "ITraffic" 2022. Все права защищены</small>
+
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
