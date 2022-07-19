@@ -40,7 +40,7 @@
     font-weight: 400;
 
     color: var(--champagne);
-    background-image: url("../../img/phone-solid-black.svg");
+    background-image: url("./../img/phone-solid-black.svg");
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -55,7 +55,7 @@
     line-height: 23px;
 
     color: var(--champagne);
-    background-image: url("../../img/location.svg");
+    background-image: url("./../img/location.svg");
     background-repeat: no-repeat;
     background-position: left center;
 }
@@ -81,19 +81,19 @@
 }
 
 .social__link--vk {
-    background-image: url("../../img/vk.svg");
+    background-image: url("./../img/vk.svg");
 }
 
 .social__link--inst {
-    background-image: url("../../img/insta.svg");
+    background-image: url("./../img/insta.svg");
 }
 
 .social__link--tw {
-    background-image: url("../../img/tw.svg");
+    background-image: url("./../img/tw.svg");
 }
 
 .social__link--p {
-    background-image: url("../../img/pin.svg");
+    background-image: url("./../img/pin.svg");
 }
 
 .callback-form__input {
